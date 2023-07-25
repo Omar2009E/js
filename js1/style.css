@@ -1,0 +1,91 @@
+body{
+    background-image:  url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/streams/2013/June/130611/6C7835371-130611-tippng-505p.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:aliceblue;
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8em;
+    margin-top: 5em;
+}
+
+.cnt1{margin-left: 2em;
+    margin-right: 1em;
+    border-radius: 10px;
+    background-color: rgba(110, 110, 110, 0.788);
+    font-size: 15px;
+    height: 10em;
+    width: 20em;
+    padding: 0.5em;
+    background-image: linear-gradient(0, #929292, #cecece);
+    background-size: 0;
+    transition: .4s;
+    background-repeat: no-repeat;
+}
+
+.cnt2{margin-left: 2em;
+    margin-right: 1em;
+    border-radius: 10px;
+    background-color: rgba(110, 110, 110, 0.788);
+    font-size: 15px;
+    height: 10em;
+    width: 20em;
+    padding: 0.5em;
+    background-image: linear-gradient(0, #929292, #cecece);
+    background-size: 0;
+    transition: .4s;
+    background-repeat: no-repeat;
+}
+.cnt3{margin-left: 2em;
+    margin-right: 1em;
+    border-radius: 10px;
+    background-color: rgba(110, 110, 110, 0.788);
+    font-size: 15px;
+    height: 10em;
+    width: 20em;
+    padding: 0.5em;
+    background-image: linear-gradient(0, #929292, #cecece);
+    background-size: 0;
+    transition: .4s;
+    background-repeat: no-repeat;
+    
+}
+
+.cnt1:hover{
+        text-align: center;
+        padding-top: 2em;
+        background-size: 100%;
+        color: rgb(0, 0, 0);
+    transition:0.5s;
+
+}
+.cnt2:hover{
+    text-align: center;
+
+    padding-top: 2em;
+    background-size: 100%;
+    color: rgb(0, 0, 0);
+transition:0.5s;
+
+}
+.cnt3:hover{
+    text-align: center;
+
+    padding-top: 2em;
+    background-size: 100%;
+    color: rgb(0, 0, 0);
+transition:0.5s;
+}
+p{
+    color:rgba(0, 0, 0, 0)
+}
+p:hover{
+ color:black
+}
